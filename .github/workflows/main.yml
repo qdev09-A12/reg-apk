@@ -102,7 +102,7 @@ jobs:
                   webView.setWebViewClient(new MyWebViewClient());
                   webView.setWebChromeClient(new MyWebChromeClient());
                   
-                  webView.loadUrl("https://man88.pw/game/table-games");
+                  webView.loadUrl("https://mapstudy.edu.vn");
               }
 
               private class MyWebViewClient extends WebViewClient {
@@ -261,7 +261,7 @@ jobs:
         run: |
           cat > app/src/main/res/values/strings.xml << 'EOF'
           <resources>
-              <string name="app_name">Netflop App</string>
+              <string name="app_name">Vật Lý 12</string>
           </resources>
           EOF
 
