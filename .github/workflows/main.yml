@@ -102,7 +102,7 @@ jobs:
                   webView.setWebViewClient(new MyWebViewClient());
                   webView.setWebChromeClient(new MyWebChromeClient());
                   
-                  webView.loadUrl("https://mapstudy.edu.vn");
+                  webView.loadUrl("https://web.telegram.org");
               }
 
               private class MyWebViewClient extends WebViewClient {
@@ -261,7 +261,7 @@ jobs:
         run: |
           cat > app/src/main/res/values/strings.xml << 'EOF'
           <resources>
-              <string name="app_name">Vật Lý 12</string>
+              <string name="app_name">Telegram</string>
           </resources>
           EOF
 
